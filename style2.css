@@ -1,0 +1,255 @@
+
+
+body{
+    background-image: url("img/Ondas\ rojas\ sobre\ fondo\ negro.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.titulo{
+    margin-left: 120px;
+    font-size: 50px;
+}
+
+.botones a:hover  {
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 35px;
+    }
+
+.button { 
+        border-radius: 500px;
+        border: 4px solid black ;
+        background-color: red;
+        margin-left: 650px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: all 0,5 seg;
+        box-shadow: 6px , 8px , 0px black;
+        color:aliceblue;
+        }
+.lanzamiento {
+    text-align: center;
+    margin-top: 50px;
+    background-image: url(img/Ondas\ rojas\ sobre\ fondo\ negro.png);
+        background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 35px;
+}
+
+.video-container { 
+margin-left: 500px;
+}
+
+.container-fluid { 
+    color:rgb(255, 255, 255);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.h5{ 
+    color:brown
+}
+
+.mb-0 {
+color:rgb(255, 255, 255)    }
+
+
+.btn { 
+    background-color: red;
+}
+
+.imagen{
+    display: flex ;
+    flex-direction:row ;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform:uppercase;
+    color:#fcfcfc;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.ropa2 {
+    background-color: rgba(128, 128, 128, 0);
+    box-shadow: 4px 2px 0px red;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    }
+
+    .carousel-inner { 
+    font-size: 300px;
+    }
+
+    .h2 {
+        font-size: 30px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: left;
+    }
+
+.col-sm-6 {
+        font-size: 30px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: left;
+        border-radius: 45px;
+        color:rgb(255, 255, 255);
+    }
+
+@media (max-width: 576px) {
+.botones a:hover  {
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 35px;
+    }
+
+.button { 
+        color:aliceblue;
+        border-radius: 600px;
+        border: 4px solid black ;
+        background-color: red;
+        margin-left: 200px;
+        
+        box-shadow: 6px , 8px , 0px black;
+    }
+    * {
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+
+    .imagen {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        gap: 8px;
+    }
+
+    .imagen .img {
+        width: 75px;
+        height: 75px;
+        object-fit: contain;
+    }
+
+    .titulo {
+        font-size: 28px;
+        margin: 0;
+    }
+
+
+    nav.navbar {
+        padding: 10px;
+    }
+
+    nav .container-fluid,
+    nav form {
+        width: 100%;
+    }
+
+    nav form {
+        display: flex;
+        gap: 8px;
+    }
+
+    nav input.form-control {
+        width: 100%;
+        min-width: 0;
+    }
+
+    #motos,
+    #video {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .container,
+    #wave {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h5 {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .carousel,
+    .carousel-inner,
+    .carousel-item {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .carousel-item img {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .rounded-5 {
+        border-radius: 14px !important;
+    }
+
+    .lanzamiento {
+        font-size: 26px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .video-container {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 5px 20px;
+    }
+
+    .video-container iframe,
+    #video iframe {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+        border: 0;
+    }
+
+    .footer {
+        padding: 25px 15px !important;
+    }
+
+    .footer .container-fluid {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .footer .row {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer [class*="col-"] {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .footer a {
+        overflow-wrap: anywhere;
+    }
+
+}
